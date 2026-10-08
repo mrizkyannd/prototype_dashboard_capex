@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="320" height="240" fill="#ffffff" rx="8"/>
+  
+  <g transform="translate(10, 10)">
+    <!-- Main ABJ Text -->
+    <g fill="#0b3899">
+      <!-- Letter A -->
+      <path d="M 55 135 L 75 135 L 87 100 L 113 100 L 125 135 L 145 135 L 108 35 L 92 35 Z M 93 82 L 100 60 L 107 82 Z"/>
+      
+      <!-- Letter B -->
+      <path d="M 133 35 L 175 35 C 190 35 198 42 198 53 C 198 61 193 67 185 70 C 196 73 202 81 202 92 C 202 106 191 135 172 135 L 133 135 Z M 151 51 L 151 73 L 168 73 C 174 73 179 70 179 62 C 179 55 174 51 168 51 Z M 151 88 L 151 119 L 171 119 C 178 119 183 114 183 104 C 183 94 178 88 171 88 Z"/>
+      
+      <!-- Letter J -->
+      <path d="M 216 35 L 233 35 L 233 115 C 233 128 223 137 207 137 C 193 137 184 129 183 117 L 199 117 C 200 122 203 124 207 124 C 212 124 216 120 216 113 Z"/>
+    </g>
+
+    <!-- Light Blue Water Wave Swoosh -->
+    <path d="M 40 135 C 70 100, 110 50, 175 62 C 205 67, 215 55, 222 45 C 210 65, 185 82, 145 78 C 95 73, 65 110, 40 135 Z" fill="url(#waveGrad)"/>
+
+    <defs>
+      <linearGradient id="waveGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#0088e8"/>
+        <stop offset="50%" stop-color="#38b6ff"/>
+        <stop offset="100%" stop-color="#0055b3"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Subtitle Air Bersih Jakarta -->
+    <text x="150" y="172" text-anchor="middle" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="25" fill="#0b3899" letter-spacing="-0.3">Air Bersih Jakarta</text>
+  </g>
+</svg>
